@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -36,10 +36,10 @@
     </header>
     <div id="container">
       <h1>Introduction to Accessibility</h1>
-      <p>This is the website for my DevFest 2023 Workshop on Accessibility.</p>
+      <h3>This is the website for my DevFest 2023 Workshop on Accessibility.</h3>
       <p>
         You can find the codebase for it
-        <a href="">here</a>.
+        <a href="https://github.com/jrohatiner/devFest-A11Y.git">here</a>.
       </p>
       <h2>About Me</h2>
       <img src="./static/profile-jr.png" alt="Judith Rohatiner" />
@@ -48,32 +48,43 @@
         use cutting edge technologies to create responsive web and mobile
         applications that perform optimally across all devices and in all
         browsers. My experience encompasses agency environments, enterprise,
-        healthcare, fintech, higher education and start-ups. I’m married to
-        Stuart. I have two grown daughters. In my spare time I bake pies, grow
-        vegetables, renovate houses, sketch and hike with my dog Gizmo.
+        healthcare, fintech, higher education and start-ups. I am also the Founder & CTO of
+        <a href="https://CampDebuggIT.com">CampDebuggIT.com</a>
+        </P>
+      <p>
+        <strong><a href="https://developers.google.com/womentechmakers/"> Women Techmakers
+        Ambassadors</a></strong>
+        has brought us together today, in cooperation with <strong>GDG Miami</strong>,
+        for DevFest 2023! On a personal note, I’m married to Stuart. I have two grown daughters.
+        In my spare time I bake pies, grow vegetables, renovate houses, sketch and 
+        hike with my dog Gizmo.
       </p>
       <h2>What is Accessibility</h2>
+      <blockquote>
+        Web accessibility means that people with disabilities can use the Web.
+        More specifically, Web accessibility means that people with disabilities
+        can <b>perceive, understand, navigate, and interact</b> with the Web,
+        and that they can <b>contribute to the Web</b>.
+      </blockquote>
+      <h2>
+        We are on a mission
+      </h2>
       <blockquote>
         When websites and web tools are properly designed and coded, people with
         disabilities can use them. However, currently many sites and tools are
         developed with accessibility barriers that make them difficult or
-        impossible for some people to use. Making the web accessible benefits
-        individuals, businesses, and society.
+        impossible for some people to use.
       </blockquote>
-      <h2>Similar Fields</h2>
+
+      <h2>Sub Categories We Will Discuss</h2>
+
       <ul>
         <li>Web Performance</li>
         <li>Internationalization</li>
         <li>UI Design</li>
       </ul>
-      <blockquote>
-        Web accessibility means that people with disabilities can use the Web.
-      </blockquote>
-      <p>
-        More specifically, Web accessibility means that people with disabilities
-        can <b>perceive, understand, navigate, and interact</b> with the Web,
-        and that they can <b>contribute to the Web</b>.
-      </p>
+
+
       <h2>Some Statistics</h2>
       <ul>
         <li>
@@ -107,75 +118,105 @@
         <li>Visual</li>
         <li>Hearing</li>
       </ul>
-      <h2>The web is already accessible (even if your website is not)</h2>
+      <h2>The web is already accessible</h2>
       <p>
         For example, let's check out
         <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">
           The first website </a
         >. It's very easy to use with assistive technologies.
       </p>
-      <h2>Reasons developers should learn accessibility</h2>
+      <h2>Why should developers should learn accessibility?</h2>
       <ul>
-        <li>It's fun!</li>
-        <li>We're the ones making it inaccessible</li>
+        <li>It's a worthwhile challenge!</li>
+        <li>We're the ones who made it inaccessible. We should be the ones to fix it.</li>
         <li>Human Rights</li>
-        <li>Legal Issue</li>
-        <li>Reach a larger audience</li>
-        <li>Impactful</li>
-        <li>Makes you a specialist</li>
+        <li>Legal Issues and Compliance (VPAT)</li>
+        <li>Reach a much larger audience</li>
+        <li>Your expertise will make you a specialist</li>
+        <li>Your commitment will help save the world.</li>
       </ul>
-      <h2>Amazing ways people use the web</h2>
-      <h3>Keyboard Only</h3>
-      <img src="./static/keyboard.jpg" alt="high contrast keyboard" />
-      <h3>Head Wand</h3>
-      <img src="./static/head-wand.jpeg" alt="head wand" />
-      <h3>Mouth Stick</h3>
-      <img src="./static/mouth-stick.jpg" alt="mouth stick" />
-      <h3>Single Switch</h3>
-      <img src="./static/single-switch.jpg" alt="single switch" />
-      <h3>Screen Reader</h3>
-      <img src="./static/screen-reader.jpg" alt="screen reader" />
-      <h2>Curb cut effect</h2>
-      <img src="./static/curb-cut.jpeg" alt="Lady pushing stroller up ramp" />
-      <blockquote>
-        The Curb-Cut Effect, in its essence, asserts that an investment in one
-        group can cascade out and up and be a substantial investment in the
-        broader well-being of a nation -- one whose policies and practices
-        create an equitable economy, a healthy community of opportunity, and
-        just society.
-      </blockquote>
-      <h2>Accessibility Standards</h2>
-      <h3>Web Content Accessibility Guidelines (WCAG)</h3>
-      <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG</a>
-      specifies three different
-      <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels"
-        >conformance levels</a
-      >
-      they are:
-      <ul>
-        <li>A (lowest)</li>
-        <li>AA (mid range)</li>
-        <li>and AAA (highest)</li>
-      </ul>
-      <blockquote>
-        Level A sets a minimum level of accessibility and does not achieve broad
-        accessibility for many situations. For this reason, UC recommends AA
-        conformance for all Web-based information.
-      </blockquote>
-      <h3>WebAIM</h3>
-      <p>
-        <a href="https://webaim.org/">WebAIM</a>
-        provides a handy
-        <a href="https://webaim.org/standards/wcag/checklist">checklist</a> with
-        their recommendations.
-      </p>
-      <p>WebAIM specifies that accessible websites should be:</p>
-      <ul>
-        <li>Perceivable</li>
-        <li>Operable</li>
-        <li>Understandable</li>
-        <li>Robust</li>
-      </ul>
-    </div>
-  </body>
-</html>
+      <!-- grid -->
+        <div class='FlexContainer'>
+          <div class="round-div">
+            Ways people use accessible features to reach the web
+          </div>
+          <div id="col1">
+            <div class="img">
+              <h2 class="title">Keyboard Only</h2>
+              <img src="./static/keyboard.jpg" alt="high contrast keyboard" width="200" height="200">
+            </div>
+            <div class="img">
+              <h2 class="title">Head Wand</h2>
+              <img src="./static/head-wand.jpeg" alt="head wand" width="200" height="200">
+            </div>
+            <div class="img">
+              <h2 class="title">Screen Reader</h2>
+              <img src="./static/screen-reader.jpg" alt="screen reader" width="200" height="200">
+            </div>
+          </div>
+          <div id="col2">
+            <div class="img">
+              <h2 class="title">Mouth Stick</h2>
+              <img src="./static/mouth-stick.jpg" alt="mouth stick" width="200" height="200">
+            </div>
+            <div class="img">
+              <h2 class="title">Single Switch</h2>
+              <img src="./static/single-switch.jpg" alt="single switch" width="200" height="200">
+            </div>
+          </div>
+        </div>
+      <!-- end grid here -->
+      <div class="row">
+      <div class="img">
+      <h2 class="title">Curb cut effect</h2>
+      <img src="./static/curb-cut.jpeg" alt="Lady pushing stroller up ramp" width="200" height="200"/>
+      </div>
+<!--          <strong>A NOTE:</strong>-->
+
+      <strong>A NOTE about the Curb-Cut Effect</strong>
+        <blockquote>
+           in its essence, asserts that an investment in one
+          group can cascade out and up and be a substantial investment in the
+          broader well-being of a nation -- one whose policies and practices
+          create an equitable economy, a healthy community of opportunity, and
+          just society.
+        </blockquote>
+      </div>
+<!--    </div>-->
+              <h2>Accessibility Standards</h2>
+              <h3>Web Content Accessibility Guidelines (WCAG)</h3>
+              <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG</a>
+              specifies three different
+              <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance#levels"
+                >conformance levels</a
+              >
+              they are:
+              <ul>
+                <li>A (lowest)</li>
+                <li>AA (mid range)</li>
+                <li>and AAA (highest)</li>
+              </ul>
+              <p>We'll discuss this more later when we look at VPAT reports</p>
+              <blockquote>
+                Level A sets a minimum level of accessibility and does not achieve broad
+                accessibility for many situations. For this reason, UC recommends AA
+                conformance for all Web-based information.
+              </blockquote>
+
+              <h3>WebAIM</h3>
+              <p>
+                <a href="https://webaim.org/">WebAIM</a>
+                provides a handy
+                <a href="https://webaim.org/standards/wcag/checklist">checklist</a> with
+                their recommendations.
+              </p>
+              <p>WebAIM specifies that accessible websites should be:</p>
+              <ul>
+                <li>Perceivable</li>
+                <li>Operable</li>
+                <li>Understandable</li>
+                <li>Robust</li>
+              </ul>
+            </div>
+          </body>
+        </html>

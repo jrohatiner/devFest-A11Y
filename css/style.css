@@ -44,7 +44,7 @@ h6 {
 div img {
   display: block;
   margin: 50px 0;
-  max-width: 500px;
+  max-width: 350px;
 }
 
 header {
@@ -79,7 +79,7 @@ header ul li a:hover {
 
 #container {
   max-width: 980px;
-  margin: 50px auto 0 auto;
+  margin: 0 auto;
   padding: 0 25px;
 }
 
@@ -448,3 +448,47 @@ pre[class*="language-"] {
 .token.entity {
   cursor: help;
 }
+section {
+  margin: 0;
+  max-width: 980px;
+  padding: 0 25px;
+  align-items: center;
+}
+.featureBox {
+  display: flex;
+  flex-basis: auto;
+  align-content: center;
+  width: 50%;
+}
+
+/*front page img display*/
+
+.round-div{
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding:5px 10px;
+  background-color: lightgoldenrodyellow;
+}
+#col1 {
+  float: left;
+  width: 50%;
+}
+#col2 {
+  float: right;
+  width: 50%;
+}
+
+section.FlexContainer {
+  padding: 10px;
+  margin-block: 30px;
+  width: 100%;
+}
+
+h2.title {
+
+}
+/*end front page img display*/
