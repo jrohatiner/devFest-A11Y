@@ -4,7 +4,7 @@ A web app to demo web accessibility.
 
 DevFest Miami 2023 Accessibility workshop
 
-To view this course online, head over to []()
+To view this course online, head over to [course website](https://jrohatiner.github.io/devFest-A11Y/index.html)
 
 ## Installation
 
